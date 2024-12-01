@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2d6a4f;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p, section ol {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+section ol {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section .image {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Canvas Styles */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    background-color: #fff; /* Fondo blanco para visibilidad */
+    cursor: pointer;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b5e3b;
+}
+
+/* Wallet Address */
+#walletAddress {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input {
+    display: block;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Interaction Forms */
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    canvas {
+        width: 100%;
+        max-width: 100%;
+    }
+}
