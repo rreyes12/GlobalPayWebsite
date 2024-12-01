@@ -1,0 +1,14 @@
+
+/* Canvas Styles */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Agregado: retroalimentación al seleccionar píxeles */
+canvas:hover {
+    border-color: #2d6a4f;
+}
